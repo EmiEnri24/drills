@@ -15,3 +15,8 @@ class Expense(models.Model):
     spent_on = models.DateField("Date of expense")
     created_at = models.DateTimeField(auto_now_add =True)
     
+    #class Meta:
+    #    ordering = ["created"]
+    
+    
+    
