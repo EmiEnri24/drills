@@ -1,0 +1,22 @@
+[project]
+name = "drills"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "EmiEnri24", email = "emilio.enriquezv@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1.3",
+    "djangorestframework>=3.18.3",
+    "pytest>=9.2.0",
+    "pytest-django>=4.14.0",
+]
+
+[project.scripts]
+drills = "drills:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
